@@ -1,0 +1,51 @@
+.modal{
+    color : white;
+   text-align: center;
+   background-color: #3e3e4e;
+    height : 35vh;
+    width : 25vw;
+    
+    margin :  auto ;
+    margin-top : 18vh;
+    // position : absolute;
+    // left : 40%;
+    // top : 30%;
+   font-family : arial;
+   font-size: 1.5rem;
+   padding : 1rem;
+   padding-top: 4rem; 
+   word-break: break-all;
+  
+}
+
+.modal__btn{
+    font-family: sans-serif;
+    background-color : #8268ca;
+    color : white;
+    width : 60%;
+     margin: auto;
+    padding : 1rem;
+    font-size: 1.6rem;
+    border : none ;
+    border-bottom: 5px solid #694abf;
+    font-weight: bolder;
+   
+}
+
+@media (max-width : 720px){
+    .modal{
+        height : 25vh;
+        width : 30vw;
+        font-size : 1rem;
+        margin-top : 30vh;
+        padding : 1rem;
+    }
+
+    .modal__btn{
+        padding : 1rem;
+        margin : 0 0 2rem 0 ;
+         
+        font-size: 1rem;
+        font-weight : bolder;
+    }
+}

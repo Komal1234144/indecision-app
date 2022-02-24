@@ -1,0 +1,39 @@
+.option{
+    display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    color : #c4c4e4;
+    font-size: 2rem;
+    font-family: sans-serif; 
+    background-color:#53536d;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.281); 
+}
+
+
+
+.option__btn{
+    background: none;
+    border: none;
+    padding : 0;
+    color :  #c4c4e4;
+   font-size:1.6rem ;
+}
+
+.option__item{
+    color : white;
+    font-weight: bolder;
+    padding-right: 1rem;
+    word-break: break-all;
+}
+
+@media (max-width : 720px){
+    .option{
+        font-size: 1.4rem;
+        font-weight : 500;
+    }
+
+    .option__btn{
+        font-size: 1.4rem;
+    }
+}

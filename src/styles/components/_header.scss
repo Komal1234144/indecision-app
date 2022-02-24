@@ -1,0 +1,29 @@
+.header{
+    background : rgb(46, 34, 46);
+    color : white; 
+    padding : 2rem;
+    margin-bottom: 4rem;
+}
+
+.header__title{
+    font-size : 3rem;
+    margin : 0;
+    letter-spacing: 2px;
+}
+
+.header__subtitle{
+    color : #c4c4e4;
+    font-size: 2rem;
+    font-weight: lighter;
+    margin: 0
+}
+
+@media(max-width : 720px){
+    .header__title{
+       font-size:2.5rem;
+    }
+
+    .header__subtitle{
+        font-size: 1.5rem;
+    }
+}

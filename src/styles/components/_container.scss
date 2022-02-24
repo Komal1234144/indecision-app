@@ -1,0 +1,24 @@
+.center-the-container{
+   
+    max-width : 60rem;
+    margin: 0 auto ;
+  
+}
+
+.body-container-color{
+    background-color: #3e3e4e
+}
+
+button{
+    cursor : pointer
+}
+
+button:disabled{
+    cursor : default
+}
+
+@media (max-width : 720px){
+    .center-the-container{
+        max-width : 80vw;
+    }
+}
